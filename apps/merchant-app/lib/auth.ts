@@ -23,6 +23,8 @@ export const authOptions = {
           return false;
         }
 
+
+        
         await db.merchant.upsert({
           select: {
             id: true
